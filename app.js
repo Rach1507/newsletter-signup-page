@@ -65,7 +65,7 @@ request.end();
 });
 
 app.post("/failure" , (req,res) =>{
-  app.redirect("/");
+  res.redirect("/");
 });
 
 app.listen(process.env.PORT || 3000, () => {
