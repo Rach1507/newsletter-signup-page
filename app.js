@@ -68,6 +68,6 @@ app.post("/failure.html" , (req,res) =>{
   app.redirect("/");
 });
 
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log("Server listening at 3000");
 });
