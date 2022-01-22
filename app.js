@@ -64,7 +64,7 @@ request.end();
 
 });
 
-app.post("/failure.html" , (req,res) =>{
+app.post("/failure" , (req,res) =>{
   app.redirect("/");
 });
 
